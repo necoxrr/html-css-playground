@@ -79,7 +79,7 @@
 
 ### 3️⃣ 为什么文字不会被视频盖住？
 
-```css
+```css    
 .banner .content {
   position: relative;
   z-index: 1;

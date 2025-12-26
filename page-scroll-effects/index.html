@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Page scroll Effects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+            <img src="curse.png">   
+    </section> 
+    <script type="text/javascript">
+        window.addEventListener('scroll',function(){
+            var value=1+window.scrollY/-900;
+            document.querySelector('img').style.transform = `scaleY(${value})`;
+        })
+    </script>
+
+</body>
+
+</html>
